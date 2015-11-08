@@ -95,7 +95,7 @@
         <div class="bgh">
             <div class="page">
                 <div id="logo">
-                    <a href="Index.aspx.html">
+                    <a href="#">
                         
                     </a>
                 </div>
@@ -112,17 +112,17 @@
                             2</option>
                         
                     </select>
-                    9133630医生：常得琳，欢迎您！ <a href="MyInfo/Index.aspx.html">我的信息</a> <a href="User/StudentInfor/systemMsge.aspx.html">
-                        通知</a> <a href="User/Account/ChangePasswd.aspx.html">密码修改</a> <a onclick="loginOut()"
+                    9133630医生：常得琳，欢迎您！ <a href="#">我的信息</a> <a href="#">
+                        通知</a> <a href="#">密码修改</a> <a onclick="loginOut()"
                             href="javascript:">安全退出</a>
                 </div>
                 <div class="blog_nav">
                     <ul>
-                        <li><a href="Index.aspx.html">药品查询</a></li>
-                        <li><a href="EducationCenter/Score.aspx.html">药品管理</a></li>
-                        <li><a href="MyAccount/wdcw.aspx.html">预购药品</a></li>
-                        <li><a href="OnlineTeaching/StudentMaterial.aspx.html">过期处理</a></li>
-                    </ul>
+                        <li><a href="#">药品查询</a></li>
+                        <li><a href="#">药品管理</a></li>
+                        <li><a href="#">预购药品</a></li>
+                        <li><a href="#">过期处理</a></li>
+                    </ul>#
                 </div>
             </div>
         </div>
@@ -138,16 +138,16 @@
                     </div>
                     <div class="cdlist">
                         <div>
-                            <a href="MyInfo/Index.aspx.html">个人信息</a></div>
+                            <a href="#">个人信息</a></div>
                         <div>
-                            <a href="MyInfo/ClassInfo.aspx.html">账号信息 </a>
+                            <a href="#">账号信息 </a>
                         </div>
                         <div>
-                            <a href="User/StudentInfor/Letter.aspx.html">短信息</a></div>
+                            <a href="#">短信息</a></div>
                         <div>
-                            <a href="User/StudentInfor/systemMsge.aspx.html">其他通知</a></div>
+                            <a href="#">其他通知</a></div>
                         <div>
-                            <a href="MyInfo/Objection.aspx.html">我的反馈</a></div>
+                            <a href="#">我的反馈</a></div>
                     </div>
                     <div class="ta1">
                         <strong>药房中心</strong>
@@ -156,11 +156,11 @@
                     </div>
                     <div class="cdlist">
                         <div>
-                            <a href="EducationCenter/Application.aspx.html">中药</a></div>
+                            <a href="#">中药</a></div>
                         <div>
-                            <a href="EducationCenter/Score.aspx.html">西药</a></div>
-                        <div>
-                            <a href="EducationCenter/Book.aspx.html">儿童专区</a></div>
+                            <a href="#">西药</a></div>
+                        <div>#
+                            <a href="#">儿童专区</a></div>
                     </div>
                     <div class="ta1">
                         <strong>订单中心</strong><div class="leftbgbt2">
@@ -168,9 +168,9 @@
                     </div>
                     <div class="cdlist">
                         <div>
-                            <a href="OnlineTeaching/StudentMaterial.aspx.html">入库订单</a></div>
+                            <a href="#">入库订单</a></div>
                         <div>
-                            <a href="OnlineTeaching/StudentStudyRecordList.aspx.html">出库订单</a></div>
+                            <a href="#">出库订单</a></div>
                     </div>
                    
                     <div class="ta1">
@@ -179,7 +179,7 @@
                     </div>
                     <div class="cdlist">
                         <div>
-                            <a href="MyAccount/wdcw.aspx.html">我要反馈</a></div>
+                            <a href="#">我要反馈</a></div>
                     </div>
 <div class="ta1">
                         <a href="#" target="_blank"><strong>其他内容</strong></a>
@@ -205,8 +205,8 @@
                 <p>
                     有 <span class="red">12</span>类药品存在缺货</p>
                 <div class="btright">
-                    <a href="User/StudentInfor/Letter.aspx.html">
-                        <img src="images/Student/default/bt_bzr.jpg" alt="给班主任发消息" width="121" height="25" /></a></div>
+                    <a href="#">
+                        <img src="images/Student/default/bt_bzr.jpg" alt="1" width="121" height="25" /></a></div>
             </div>
         </div>
         <div class="dh2">
@@ -222,8 +222,8 @@
                     药品代码：<input type="text" name="" id="" />
                 </p>
                 <div class="btright">
-                    <a href="EducationCenter/Application.aspx.html">
-                        <img src="images/Student/default/bt_jw.jpg" alt="点击出库" width="121" height="25" /></a></div>
+                    <a href="#">
+                        <img src="images/Student/default/bt_jw.jpg" alt="2" width="121" height="25" /></a></div>
                 </form>
             </div>
         </div>
@@ -239,8 +239,8 @@
                     药品编号：<input type="text" name="" id="" />
                 </p>
                 <div class="btright">
-                    <a href="http://sm.zk0731.com/User/ExamCenter/ExamPractice/ListExam.aspx?ptid=1">
-                        <img src="images/Student/default/bt_ks.jpg" alt="进入考试中心" width="121" height="25" /></a></div>
+                    <a href="#">
+                        <img src="images/Student/default/bt_ks.jpg" alt="3" width="121" height="25" /></a></div>
             </div>
         </div>
         <div class="dh4">
@@ -254,8 +254,8 @@
                 </p>
                 
                 <div class="btright">
-                    <a href="MyAccount/wdcw.aspx.html">
-                        <img src="images/Student/default/bt_cw.jpg" alt="进入财务中心" width="121" height="25" /></a></div>
+                    <a href="#">
+                        <img src="images/Student/default/bt_cw.jpg" alt="4" width="121" height="25" /></a></div>
             </div>
         </div>
     </div>
