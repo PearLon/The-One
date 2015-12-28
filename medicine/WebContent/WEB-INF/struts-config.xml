@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+          "https://struts.apache.org/dtds/struts-config_1_3.dtd">
+<struts-config>
+
+	<form-beans>
+		<form-bean name="studentform" type="formbean.studentform"></form-bean>
+		<form-bean name="needform" type="formbean.needform"></form-bean>
+		<form-bean name="detailform" type="formbean.detailform"></form-bean>
+		<form-bean name="adminform" type="formbean.adminform"></form-bean>
+		<form-bean name="userform" type="formbean.userform"></form-bean>
+		<form-bean name="medicineform" type="formbean.medicineform"></form-bean>
+		<form-bean name="totalform" type="formbean.totalform"></form-bean>
+		<form-bean name="importform" type="formbean.importform"></form-bean>
+	</form-beans>
+
+	<action-mappings>
+		<action path="/student" type="action.studentaction" name="studentform"
+			parameter="action">
+			<forward name="result" path="/result.jsp" />
+			<forward name="result2" path="/regist-result.jsp" />
+			<forward name="resultupdate" path="/update-result.jsp" />
+			<forward name="emailresult" path="/emailresult.jsp" />
+			<forward name="sendresult" path="/sendresult.jsp" />
+		</action>
+		<action path="/need" type="action.needaction" name="needform"
+			parameter="action">
+			<forward name="result" path="/result.jsp" />
+			<forward name="list" path="/search.jsp" />
+			<forward name="searchresult" path="/search-result.jsp" />
+			<forward name="usercenter" path="/student.jsp" />
+			<forward name="admincenter" path="/admin.jsp" />
+		</action>
+
+		<action path="/detail" type="action.detailaction" name="detailform"
+			parameter="action">
+			<forward name="detail" path="/detail.jsp" />
+		</action>
+
+		<action path="/admin" type="action.adminaction" name="adminform"
+			parameter="action">
+			<forward name="adminresult" path="/adminresult.jsp" />
+		</action>
+		<action path="/user" type="action.useraction" name="userform"
+			parameter="action">
+			<forward name="result" path="/result.jsp" />
+		</action>
+		
+		<action path="/total" type="action.totalaction" name="totalform"
+			parameter="action">
+			<forward name="search7" path="/list8.jsp" />
+		</action>
+		<action path="/import" type="action.importaction" name="importform"
+			parameter="action">
+			<forward name="search8" path="/list9.jsp" />
+		</action>
+
+		<action path="/medicine" type="action.medicineaction" name="medicineform"
+			parameter="action">
+			<forward name="main" path="/main.jsp" />
+			<forward name="resultupdate" path="/update-result.jsp" />
+			<forward name="searchresult" path="/list1.jsp" />
+			<forward name="search1" path="/list2.jsp" />
+			<forward name="search2" path="/list3.jsp" />
+			<forward name="search3" path="/list4.jsp" />
+			<forward name="search4" path="/list5.jsp" />
+			<forward name="search5" path="/list6.jsp" />
+			<forward name="search6" path="/list7.jsp" />
+		</action>
+	</action-mappings>
+</struts-config>
+
